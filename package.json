@@ -1,0 +1,20 @@
+{
+  "name": "rabbitmq-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consume": "node consumer.js",
+    "publish1": "node tutorial-1-publisher",
+    "consume1": "node tutorial-1-consumer",
+    "publish2": "node tutorial-2-publisher",
+    "consume2": "node tutorial-2-consumer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
